@@ -1060,7 +1060,7 @@ for i = istart:length(tau)
                 y = min(y, yLast);
             elseif strcmp(compMethod, 'maxVOverTime')
                 y = max(y, yLast);
-            elseif strcmp(compMethod, 'minVWithV0')n%Min with data0
+            elseif strcmp(compMethod, 'minVWithV0')%Min with data0
                 y = min(y,data0(:));
             elseif strcmp(compMethod, 'maxVWithV0')
                 y = max(y,data0(:));
